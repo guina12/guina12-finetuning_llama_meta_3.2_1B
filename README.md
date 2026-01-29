@@ -199,16 +199,8 @@ Avaliação quantitativa com **5.000 instâncias** distribuídas em 5 datasets (
 - Recall: 0.890 (min: 0.800, max: 0.973)
 
 
-## Avaliação do Modelo
+## Avaliação do Modelo ( Entendendo BPT, BPC e BPB)
 <img width="1019" height="897" alt="image" src="https://github.com/user-attachments/assets/a2a31a0a-4e11-41d6-9215-ab2e6c9019d7" />
-
-# 📐 Guia Técnico: Métricas de Compressão e Entropia
-
-## Entendendo BPT, BPC e BPB
-
-Este documento explica as métricas de compressão de informação usadas para avaliar o modelo Llama 3.2 1B Medical PT.
-
----
 
 ## 📊 Visão Geral das Métricas
 
