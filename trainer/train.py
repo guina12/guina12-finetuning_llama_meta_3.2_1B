@@ -1,6 +1,6 @@
-from finetuning_medcare.trainer.eficient_finetuning import PrepareModel
-from finetuning_medcare.configuration.config import get_config
-from finetuning_medcare.preprocess.preprocess_data import get_data
+from trainer.eficient_finetuning import PrepareModel
+from configuration.config import get_config
+from preprocess.preprocess_data import get_data
 from trl  import SFTTrainer, SFTConfig
 
 #---------------------------------------------------------------------------------------#
