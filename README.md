@@ -1,5 +1,8 @@
 # Fine-tuning Llama 3.2 1B Para seguir instruções Médicas.
 
+<img width="1023" height="896" alt="image" src="https://github.com/user-attachments/assets/2ab1ec8f-7904-4724-84c2-440d4e8a4fbd" />
+
+
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.2.2-red.svg)](https://pytorch.org/)
 [![Transformers](https://img.shields.io/badge/🤗%20Transformers-4.57.6-yellow.svg)](https://huggingface.co/transformers/)
@@ -202,7 +205,7 @@ Avaliação quantitativa com **5.000 instâncias** distribuídas em 5 datasets (
 ## Avaliação do Modelo ( Entendendo BPT, BPC e BPB)
 <img width="1019" height="897" alt="image" src="https://github.com/user-attachments/assets/a2a31a0a-4e11-41d6-9215-ab2e6c9019d7" />
 
-## 📊 Visão Geral das Métricas
+## Visão Geral das Métricas
 
 ### 1. BPT (Bits Per Token)
 
@@ -221,7 +224,7 @@ BPT = H(P) = -Σ p(x) log₂ p(x)
 **No nosso modelo**:
 - Inicial: 1.425 bits/token (step 1000)
 - Final: 1.156 bits/token (step 6000)
-- **Melhoria: -18.9%** ✅
+- **Melhoria: -18.9%** 
 
 **O que isso significa?**
 O modelo ficou 18.9% mais eficiente em representar o conhecimento médico, reduzindo a incerteza nas suas predições.
@@ -245,7 +248,7 @@ BPC = BPT / (comprimento_médio_tokens_em_caracteres)
 **No nosso modelo**:
 - Inicial: 0.475 bits/char (step 1000)
 - Final: 0.385 bits/char (step 6000)
-- **Melhoria: -19.0%** ✅
+- **Melhoria: -19.0%** 
 
 **O que isso significa?**
 O modelo aprendeu a representar texto médico em português com maior eficiência em nível de caractere, aproximando-se de métodos de compressão otimizados.
@@ -269,7 +272,7 @@ BPB = BPT / (comprimento_médio_tokens_em_bytes)
 **No nosso modelo**:
 - Inicial: 0.543 bits/byte (step 1000)
 - Final: 0.440 bits/byte (step 6000)
-- **Melhoria: -19.0%** ✅
+- **Melhoria: -19.0%** 
 
 **O que isso significa?**
 O modelo consegue "comprimir" texto médico em português com eficiência comparável a algoritmos especializados de compressão.
@@ -287,7 +290,7 @@ BPT = log₂(Perplexity)
 
 **Exemplo (step 6000)**:
 - Perplexity: 2.2287
-- BPT: log₂(2.2287) = 1.1562 ✅ (confirmado)
+- BPT: log₂(2.2287) = 1.1562 (confirmado)
 
 ### Comparação com Baseline Teórico
 
@@ -303,7 +306,7 @@ BPT = log₂(Perplexity)
 
 ---
 
-## 📈 Evolução Durante o Treinamento
+##  Evolução Durante o Treinamento
 
 ### Tendências Observadas
 
@@ -330,7 +333,7 @@ Step 1000 → 6000:
 
 ---
 
-## 🎯 Implicações Práticas
+##  Implicações Práticas
 
 ### 1. Eficiência Computacional
 
@@ -355,11 +358,11 @@ BPT (Eval):  1.144
 Gap: 0.012 (apenas 1.0%)
 ```
 
-**Conclusão**: Excelente generalização, sem overfitting! ✅
+**Conclusão**: Excelente generalização, sem overfitting! 
 
 ---
 
-## 🔍 Análise de Convergência
+##  Análise de Convergência
 
 ### Critérios de Parada
 
@@ -367,14 +370,14 @@ Métricas indicam que o modelo atingiu convergência satisfatória:
 
 | Critério | Status | Evidência |
 |----------|--------|-----------|
-| BPT estabilizado | ✅ | Variação < 2% nos últimos 2000 steps |
-| Gap Train-Eval | ✅ | Diferença < 1.5% em todas as métricas |
-| Melhoria contínua | ✅ | Tendência de queda mantida até step 6000 |
-| Overfitting | ✅ | Eval BPT < Train BPT (contra-intuitivo mas positivo) |
+| BPT estabilizado |  | Variação < 2% nos últimos 2000 steps |
+| Gap Train-Eval |  | Diferença < 1.5% em todas as métricas |
+| Melhoria contínua |  | Tendência de queda mantida até step 6000 |
+| Overfitting |  | Eval BPT < Train BPT (contra-intuitivo mas positivo) |
 
 ---
 
-## 📚 Comparação com Literatura
+##  Comparação com Literatura
 
 ### Modelos de Linguagem em Português
 
@@ -396,7 +399,7 @@ Métricas indicam que o modelo atingiu convergência satisfatória:
 
 ---
 
-## 🧮 Cálculos de Exemplo
+##  Cálculos de Exemplo
 
 ### Como Calcular BPT Manualmente
 
@@ -476,11 +479,11 @@ print(f"BPC: {bpc:.4f}, BPB: {bpb:.4f}")
 
 ---
 
-## 💡 Dicas para Otimização
+##  Dicas para Otimização
 
 ### Reduzindo BPT/BPC/BPB
 
-1. **Fine-tuning em domínio específico** ✅ (já aplicado)
+1. **Fine-tuning em domínio específico**  (já aplicado)
    - Reduz entropia ao focar em vocabulário médico
 
 2. **Aumentar tamanho do dataset**
@@ -513,15 +516,17 @@ print(f"BPC: {bpc:.4f}, BPB: {bpb:.4f}")
 
 ---
 
-## 📊 Resumo Executivo
+##  Resumo Executivo
 
 ### Principais Conquistas
 
-✅ **BPT reduzido em 18.9%** - Melhor modelagem da linguagem médica  
-✅ **BPC otimizado para 0.385** - Eficiência próxima a compressores dedicados  
-✅ **Gap Train-Eval < 1%** - Excelente generalização  
-✅ **Convergência estável** - Sem sinais de overfitting  
-✅ **Performance competitiva** - Comparable a modelos maiores
+ **BPT reduzido em 18.9%** - Melhor modelagem da linguagem médica  
+ **BPC otimizado para 0.385** - Eficiência próxima a compressores dedicados  
+ **Gap Train-Eval < 1%** - Excelente generalização  
+ **Convergência estável** - Sem sinais de overfitting  
+ **Performance competitiva** - Comparable a modelos maiores
+
+ 
 
 ### Impacto Prático
 
