@@ -205,7 +205,6 @@ Avaliação quantitativa com **5.000 instâncias** distribuídas em 5 datasets (
 
 
 ## Avaliação do Modelo ( Entendendo BPT, BPC e BPB)
-<img width="1019" height="897" alt="image" src="https://github.com/user-attachments/assets/a2a31a0a-4e11-41d6-9215-ab2e6c9019d7" />
 
 ## Visão Geral das Métricas
 
