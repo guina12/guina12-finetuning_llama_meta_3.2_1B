@@ -1,8 +1,9 @@
 # Fine-tuning Llama 3.2 1B Para seguir instruções Médicas.
 
-<img width="800" height="896" alt="image" src="https://github.com/user-attachments/assets/2ab1ec8f-7904-4724-84c2-440d4e8a4fbd" />  <img width="800" height="896" alt="image" src="https://github.com/user-attachments/assets/9ca86546-df81-4c2f-953f-01441c535e61" />
-
-
+<div style="display: flex; gap: 10px;">
+  <img src="https://github.com/user-attachments/assets/2ab1ec8f-7904-4724-84c2-440d4e8a4fbd" width="400"/>
+  <img src="https://github.com/user-attachments/assets/9ca86546-df81-4c2f-953f-01441c535e61" width="400"/>
+</div>
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.2.2-red.svg)](https://pytorch.org/)
