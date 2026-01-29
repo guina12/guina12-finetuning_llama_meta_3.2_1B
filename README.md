@@ -153,17 +153,17 @@ Avaliação quantitativa com **5.000 instâncias** distribuídas em 5 datasets (
 ### Visualizações das Distribuições
 
 #### 1. Recall (Bootstrap)
-![Distribuição de Recall](Figure_1.png)
+![Distribuição de Recall](<img width="630" height="477" alt="image" src="https://github.com/user-attachments/assets/f9d3aa54-5a1c-4420-9b5c-207fa54149b2" />)
 
 **Análise**: As distribuições de recall mostram consistência entre datasets, com medianas próximas a 0.89. Dataset D apresenta distribuição ligeiramente superior e menor variabilidade.
 
 #### 2. Precision (Bootstrap)
-![Distribuição de Precision](Figure_2.png)
+![Distribuição de Precision](<img width="642" height="479" alt="image" src="https://github.com/user-attachments/assets/28f92191-8264-4a50-8951-b5440c25e091" />)
 
 **Análise**: A precisão mantém padrões similares ao recall, com Dataset D novamente demonstrando desempenho superior. A variabilidade é controlada em todos os datasets.
 
 #### 3. F1-Score (Bootstrap)
-![Distribuição de F1-Score](Figure_3.png)
+![Distribuição de F1-Score](<img width="641" height="475" alt="image" src="https://github.com/user-attachments/assets/40a82bcb-eeb1-4e20-9a0f-f1a449d7e353" />)
 
 **Análise**: O F1-Score equilibra precisão e recall, confirmando Dataset D como o mais consistente, seguido por Dataset A. Todos os datasets mantêm performance acima de 0.85.
 
