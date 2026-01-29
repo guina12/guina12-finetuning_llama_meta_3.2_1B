@@ -1,6 +1,6 @@
 # Fine-tuning Llama 3.2 1B Para seguir instruções Médicas.
 
-<img width="1023" height="896" alt="image" src="https://github.com/user-attachments/assets/2ab1ec8f-7904-4724-84c2-440d4e8a4fbd" />
+<img width="800" height="896" alt="image" src="https://github.com/user-attachments/assets/2ab1ec8f-7904-4724-84c2-440d4e8a4fbd" />
 
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
