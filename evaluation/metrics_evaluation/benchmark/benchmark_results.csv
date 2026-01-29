@@ -1,0 +1,14 @@
+task,metric,value
+medmcqa,alias,medmcqa
+medmcqa,"acc,none",0.3801099689218264
+medmcqa,"acc_stderr,none",0.0075061967138909304
+medmcqa,"acc_norm,none",0.3801099689218264
+medmcqa,"acc_norm_stderr,none",0.0075061967138909304
+medqa_4options,alias,medqa_4options
+medqa_4options,"acc,none",0.35428122545168894
+medqa_4options,"acc_stderr,none",0.01341072387069237
+medqa_4options,"acc_norm,none",0.35428122545168894
+medqa_4options,"acc_norm_stderr,none",0.01341072387069237
+squad_completion,alias,squad_completion
+squad_completion,"contains,none",0.5908176943699732
+squad_completion,"contains_stderr,none",N/A
