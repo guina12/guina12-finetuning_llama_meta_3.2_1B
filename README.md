@@ -1,4 +1,4 @@
-# Fine-tuning Llama 3.2 1B para Português Médico
+# Fine-tuning Llama 3.2 1B Para seguir instrucções Médicas.
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.2.2-red.svg)](https://pytorch.org/)
@@ -19,7 +19,7 @@
   - [Benchmarks Médicos](#1-benchmarks-médicos-padronizados)
   - [Avaliação por IA](#2-avaliação-por-ia-como-juíza-gpt-4o-mini)
   - [Métricas ROUGE](#3-métricas-rouge-em-5-datasets-de-validação)
-  - [[Avaliação do Modelo](#3-Avaliação-do-modelo)]
+  - [Avaliação do Modelo](#3-Avaliação-do-modelo)
 - [Resultados](#-resultados)
 - [Análise Qualitativa](#-análise-qualitativa-ia-como-juíza)
 - [Especificações Técnicas](#-especificações-técnicas)
