@@ -19,6 +19,7 @@
   - [Benchmarks Médicos](#1-benchmarks-médicos-padronizados)
   - [Avaliação por IA](#2-avaliação-por-ia-como-juíza-gpt-4o-mini)
   - [Métricas ROUGE](#3-métricas-rouge-em-5-datasets-de-validação)
+  - [[Avaliação do Modelo](#3-Avaliação-do-modelo)]
 - [Resultados](#-resultados)
 - [Análise Qualitativa](#-análise-qualitativa-ia-como-juíza)
 - [Especificações Técnicas](#-especificações-técnicas)
