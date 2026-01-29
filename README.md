@@ -197,6 +197,11 @@ Avaliação quantitativa com **5.000 instâncias** distribuídas em 5 datasets (
 - Precision: 0.890 (min: 0.755, max: 0.978)
 - Recall: 0.890 (min: 0.800, max: 0.973)
 
+
+## Avaliação do Modelo
+<img width="1019" height="897" alt="image" src="https://github.com/user-attachments/assets/a2a31a0a-4e11-41d6-9215-ab2e6c9019d7" />
+
+
 ##  Análise Qualitativa (IA como Juíza)
 
 Com base na amostra fornecida de avaliações:
